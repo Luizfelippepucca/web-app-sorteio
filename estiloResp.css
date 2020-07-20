@@ -1,0 +1,422 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    background-color: rgba(233, 131, 10, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    
+}
+.logo{
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+    margin-left: 40%;
+}
+fieldset{
+    width: 100%;
+    max-width: 598px;
+    height: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    position: absolute;
+    transition: 0.3s all linear;
+    border: 0px;
+    background-color:rgba(233, 131, 10, 0.1);
+}
+.mega{
+    width: 0%;
+    
+}
+.mega input{
+    display: none;
+}
+
+.quina{
+    width: 0%;
+   
+
+}
+.quina input{
+    display: none;
+    transition: 0.6s all linear;
+  
+}
+
+input{
+      width: 100%;
+      max-width: 40px;
+      height: 40px;
+      text-align: right;
+      margin-left: 4%;
+      margin-top: 15px;
+      padding: 7px;
+      background-color: white;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      
+}
+#escolherMega{
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    background-color: rgba(233, 131, 10, 0.1);
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+#escolherMega:hover{
+    border: 0px;
+    text-decoration-line: underline;
+}
+#escolherQuina{
+    width: 100%;
+    max-width: 100px;
+    height: 30px;
+    background-color: rgba(233, 131, 10, 0.1);
+    line-height: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+#escolherQuina:hover{
+    border: 0px;
+    text-decoration-line: underline;
+}
+.container{
+    width: 100%;
+    max-width: 600px;
+    height: 90px;
+    background-color: rgba(233, 131, 10, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2{
+    width: 100%;
+    max-width: 600px;
+    height: 230px;
+    background-color: rgba(233, 131, 10, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('img/sorteio.gif');
+}
+#campo7{
+    margin-left: 85px;
+}
+#campo{
+    margin-left:40px;
+}
+.campoBtn{
+    width: 100%;
+    max-width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    width: 100%;
+    max-width: 110px;
+    height: 40px;
+    background-color: rgba(233, 131, 10, 0.1);
+    line-height: 15px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+button:hover{
+    border: 0px;
+    text-decoration-line: underline;
+   
+}
+.call{
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    background-color: rgba(233, 131, 10, 0.2);
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 50px;
+    color:rgb(255, 120, 0);
+   
+}
+.rodape{
+    width: 100%;
+    max-width: 600px;
+    height: 290px;
+    background-color: rgba(233, 131, 10, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.git{
+    width: 100%;
+    max-width: 250px;
+    height: 180px;
+   
+}
+.git img{
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 60px;
+    margin-left: 25%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.git2{
+    width: 100%;
+    max-width: 250px;
+    height: 180px;
+}
+.git2 img{
+    width: 100%;
+    max-width: 110px;
+    height: auto;
+    border-radius: 60px;
+    margin-left: 25%;
+    cursor: pointer;
+    margin-top: 24px;
+}
+.logo2{
+    width: 100%;
+    max-width: 400px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.logo2 img{
+    width: 170px;
+    height: auto;
+  
+}
+.darkmode{
+    width: 100%;
+    max-width: 100px;
+    height: 70px;
+    position: absolute;
+    margin-top: 200px;
+}
+.darkmodeOn{
+    width: 50%;
+    max-width: 130px;
+    height: 30px;
+    background-color:cornflowerblue;
+    border-radius: 35px;
+    transition: all .5s linear;
+    margin-left: -50px;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    font-size: 14px;
+    line-height: 30px;
+    color: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+   
+}
+
+.darkmodeOn input{
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+    display: none;
+}
+
+.dark{
+    background-color: #1c1c1c;
+    color: white;
+}
+.dark2{
+    background-color: #252525fd;
+    color: white;
+}
+.On{
+    width: 50%;
+    max-width: 50px;
+    height: auto;
+    line-height: 30px;
+    position: relative;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color:rgb(255, 120, 0);
+    font-size: 18px;
+}
+.off{
+    width: 50%;
+    max-width: 50px;
+    height: auto;
+    line-height: 30px;
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color:rgb(255, 120, 0);
+    font-size: 18px;
+}
+
+@media only screen and (max-width:526px){
+    #campo,#campo2,#campo3,#campo4,#campo5,#campo6{
+        margin-left: 25px;
+        width: 100%;
+        max-width: 30px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    #campo7,#campo8,#campo9,#campo10,#campo11{
+        width: 100%;
+        max-width: 30px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .git,.git2{
+        margin-top: 20px;
+    }
+    .logo2{
+        margin-top: 10px;
+    }
+    .git img{
+        max-width: 84px;
+    }
+    .git2 img{
+        max-width: 78px;
+    }
+    .logo2 img{
+        max-width: 138px;
+    }
+    .call{
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (min-width:358px) and (max-width:476px){
+    .call{
+       font-size: 16px;
+    }
+    .git img{
+        max-width: 68px;
+    }
+    .git2 img{
+        max-width: 60px;
+        margin-left: 32%;
+    }
+    .logo2 img{
+        max-width: 117px;
+        margin-top: 5px;
+        
+    }
+    #campo,#campo2,#campo3,#campo4,#campo5,#campo6{
+        margin-left: 5px;
+        
+    }
+    #campo7{
+        margin-left: -2px;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:357px){
+    .call{
+       font-size: 16px;
+    }
+    .git img{
+        max-width: 68px;
+    }
+    .git2 img{
+        max-width: 60px;
+        margin-left: 32%;
+    }
+    .logo2 img{
+        max-width: 117px;
+        margin-top: 5px;
+        
+    }
+    #campo,#campo2,#campo3,#campo4,#campo5,#campo6{
+        margin-left: -2px;
+        
+    }
+    #campo7{
+        margin-left: -2px;
+    }
+}
+
+
+
+@media only screen and (max-width:320px){
+    .call{
+       font-size: 16px;
+    }
+    .git img{
+        max-width: 68px;
+    }
+    .git2 img{
+        max-width: 60px;
+        margin-left: 32%;
+    }
+    .logo2 img{
+        max-width: 117px;
+        margin-top: 5px;
+        
+    }
+    #campo,#campo2,#campo3,#campo4,#campo5,#campo6{
+        margin-left: -2px;
+    }
+    
+    #campo7{
+        margin-left: -2px;
+    }
+   
+}
