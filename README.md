@@ -2,7 +2,7 @@
 Web app de sorteio de números aleatórios para joga na loteria.
 
 ###Front-end (html5,css3,javascript).
-###### Wep App criado para aprendizado das seguintes linguagens acima.
+###### Wep App criado para aprendizado das  linguagens acima.
 ###### Criado totalmente do zero para praticar.
 
 
